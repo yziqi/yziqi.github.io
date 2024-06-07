@@ -43,9 +43,130 @@
 		src="https://c.statcounter.com/12128188/0/1cd99131/1/" alt="Web
 		Analytics"></div></noscript>
 		<!-- End of Statcounter Code -->
+		<style type="text/css">
+			html {
+			  scroll-padding-top: 50px; /* height of sticky header */
+			}
+	  
+			body {
+			  margin: auto;
+			  padding: auto;
+			  width: 1024px;
+	  
+			  color: #2E3436;
+			  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+			  font-size: 15px;
+			  line-height: 1.4em;
+			}
+	  
+			.collapsible {
+			  cursor: pointer;
+			}
+	  
+			.collapsible:hover {
+			  background-color: #f1f1f1;
+			}
+	  
+			.collapsible:hover::after {
+			  font-weight: bold;
+			  float: right;
+			  content: '\2913';
+			}
+	  
+			.active::after {
+			  font-weight: bold;
+			  float: right;
+			  content: "\2912";
+			}
+	  
+			.active:hover::after {
+			  font-weight: bold;
+			  float: right;
+			  content: "\2912";
+			}
+	  
+			.content {
+			  padding: 0 18px;
+			  display: none;
+			  overflow: hidden;
+			}
+	  
+			pre {
+			  border-style: solid;
+			  border-width: 1px;
+			  border-radius: 4px;
+			  border-color: lightgrey;
+			  padding: 5px 5px 5px 5px;
+			  overflow: auto;
+			  background-color: #f1f1f1
+			} 
+	  
+			.pub-title {
+			  font-weight: bold;
+			}
+			.pub-links {
+			  font-weight: bold;
+			  float:right;
+			}
+			.pub-conf {
+			  font-style: italic;
+			}
+	  
+			img { vertical-align: bottom; }
+		
+			a {  color: #008cba; text-decoration: none; }
+	  
+			li { margin-bottom: 15px; }
+	  
+			#menu {
+			  position: sticky;
+			  top: 0;
+	  
+			  background-color: #333;
+			  height: 2.2em;
+			  margin: auto;
+			}
+			
+			#menu #nav {
+			  float: left;
+			  top:0;
+			  width:100%;
+			}
+			
+			#menu #nav ul {
+			  float: left;
+			  margin: 6px;
+			  padding: 0;
+			}
+			
+			#menu #nav ul li {
+			  display: inline;
+			}
+			
+			#menu #nav ul li a {
+			  color: white;
+			  padding: 8px 16px;
+			  font-weight: bold;
+			}
+	  
+			#menu #nav ul li a:hover:not(.active) {
+			  background-color: #111;
+			}
+		  </style>
 	</head>
 
 	<body bgcolor="#ffffff">
+		<div id="menu">
+			<div id="nav">
+			  <ul>
+			  <li><a href="#">Home</a></li>
+			  <li><a href="#biography">Biography</a></li>
+			  <li><a href="#publications">Publications</a></li>
+			  <li><a href="#teaching">Teaching</a></li>
+			  <li><a href="#services">Services</a></li>
+			  </ul>
+			</div>
+		  </div>
 		<table border="0">
 			<tbody>
 			<tr height="5"></tr>
@@ -74,7 +195,7 @@
 		</table>
 	
 		<hr>
-		<h2>Biography</h2>
+		<h2 id="biography">Biography</h2>
 			I am an Assistant Professor (ZJU100 Young Professor), with both the School of Cyber Science and Technology and the College of Computer Science and Technology at <a href="https://www.zju.edu.cn/english/">Zhejiang University</a>, China. Prior to Zhejiang University, I was a Research Fellow at <a href="http://www.nus.edu.sg/">National University of Singapore</a>. I received a Ph.D degree at the School of Computing, <a href="http://www.nus.edu.sg/">National University of Singapore</a>, working with Prof. <a href="http://www.comp.nus.edu.sg/~liangzk/">LIANG Zhenkai</a>, and a B.E. degree in Information Security from <a href="http://english.hust.edu.cn/">Huazhong University of Science and Technology</a>.
 			<br><br> 
 			I'm interested in cybersecurity and machine learning with a recent focus on the intersections between security, privacy, and machine learning.
@@ -82,7 +203,7 @@
  			<font color="red"><b>➙</b></font> I'm looking for self-motivated <b>Postdoc/Ph.D./master/undergraduate students</b> who are interested in machine learning and/or security. Please email me your CV.
 		
 		<hr>
-		<h2>Selected Papers</h2>
+		<h2 id="publications">Selected Publications</h2>
 		<ul>
 
 			<li><span style="font-weight: bold;">Unveiling Privacy Vulnerabilities: Investigating the Role of Structure in Graph Data</span> <br>
@@ -179,7 +300,7 @@
 		</ul>
 		<hr>
 
-		<h2>Teaching</h2>
+		<h2 id="teaching">Teaching</h2>
 		<ul>
 
 			Fundamentals of Data Structures <span style="float:right;">Fall 2022, Fall 2023, Spring 2024</span><br>
@@ -219,7 +340,7 @@
 		</ul>
 		<hr> -->
 
-		<h2>Service</h2>
+		<h2 id="services">Services</h2>
 		<ul>
 			<li><strong>Program Committee Member</strong><br>
 				
