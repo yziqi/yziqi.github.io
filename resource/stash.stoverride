@@ -1,0 +1,20 @@
+rules:
+# microsoft
+- DOMAIN-SUFFIX,live.com,Proxy
+- DOMAIN-SUFFIX,live.net,Proxy
+- DOMAIN-SUFFIX,office.com,Proxy
+- DOMAIN-SUFFIX,office.net,Proxy
+- DOMAIN-SUFFIX,sharepoint.com,Proxy
+- DOMAIN-SUFFIX,office365.com,Proxy
+- DOMAIN-SUFFIX,officeppe.net,Proxy
+- DOMAIN-SUFFIX,skype.com,Proxy
+- DOMAIN-SUFFIX,onedrive.com,Proxy
+- DOMAIN-SUFFIX,msocsp.com,Proxy
+- DOMAIN-SUFFIX,msauthimages.net,Proxy
+- DOMAIN-SUFFIX,msauth.net,Proxy
+- DOMAIN-SUFFIX,msn.com,Proxy
+- DOMAIN-SUFFIX,onenote.com,Proxy
+- DOMAIN-SUFFIX,onenote.net,Proxy
+- DOMAIN-SUFFIX,1drv.com,Proxy
+- DOMAIN-SUFFIX,microsoft.com,Proxy
+- DOMAIN-SUFFIX,microsoftonline.com,Proxy
