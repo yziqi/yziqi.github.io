@@ -1,3 +1,6 @@
+name: Stash Override
+desc: Prepend rules to original rule set.
+
 rules:
 # microsoft
 - DOMAIN-SUFFIX,live.com,Proxy
