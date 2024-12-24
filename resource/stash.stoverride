@@ -1,4 +1,4 @@
-name: Stash Override
+name: Override from My Github
 desc: Prepend rules to original rule set.
 
 rules:
